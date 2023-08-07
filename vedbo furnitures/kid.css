@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two ul li{
+    display:inline-block;
+    float: left;
+}
+
+.two{
+    margin-top: 15px;
+}
+
+.top ul li{
+    margin-left: 15px;
+}
+
+nav .top1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    float: left;
+    align-items: center;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 15px;
+
+}
+
+.top1{
+    margin-left: 50px;
+}
+
+/* ul, li{
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+} */
+
+.two ul li{
+    margin-right: 20px;
+}
+
+.main1 ul  li{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.main1{
+    margin-top: 20px;
+    height: 80px;
+    width: 100%; display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+} 
+
+li{
+    list-style-type: none;
+}
+
+.aa{
+    display:flex;
+    width: 100%;
+    background-color: #e9e5de;
+    height: 600px;
+}
+
+.bb{
+    display: inline-block;
+    margin-left: 20px;
+    width: 80%;
+    margin-top: 150px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1{
+
+    line-height: 50px;
+    margin-bottom: 150px;
+}
+
+
+
+.cc{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.banner5{
+    position: relative;
+    margin: 5%;
+}
+
+.img123{
+    position: absolute;
+    top: 23%;
+    left: 25%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.bb {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 70PX;
+}
+
+.cat img{
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    margin: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.pro img{
+    width: 250px;
+    margin-left: 20px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+span{
+    font-size: 12px;
+    margin-top: 5px;
+    float: right;
+}
+
+
+
+.pro1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.po img{
+    width: 250px;
+    margin-left: 20px;
+}
+
+
+
+.main1 ul li:hover{
+    color: White;
+    background-color: rgba(255, 0, 0, 0.634);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pi{
+    margin-top: 250px;
+    margin-bottom: 500px;
+}
+
+.last{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+
+.last img{
+    width: 100%;
+}
+
+.one{
+    display: block;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  h3{
+      text-align: center;
+      font-size: 20px;
+      margin-top: 15px;
+  }
+  
+  label{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      
+  }
+  
+  #btn{
+      font-size: larger;
+      color: aliceblue;
+      background-color: black;
+      margin-left: 10px;
+      width: 150px;
+      height: 30px;
+  }
+
+  *,
+::before,
+::after {
+    box-sizing: border-box;
+}
+.section{
+    padding: 4rem 0 2rem;
+    /* padding: 10px 80px; */
+    margin-left: 100px;
+  }
+
+.bd-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+.footer__container {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 2rem;
+}
+
+.footer__logo {
+    font-size: 1rem;
+    color: #069C54;
+    font-weight: 600;
+}
+
+.footer__description {
+    display: block;
+    font-size: .813rem;
+    margin: .25rem 0 1.5rem;
+}
+
+.footer__social {
+    font-size: 1.5rem;
+    color: #393939;
+    margin-right: 1rem;
+}
+
+
+.footer__title {
+    font-size: 1.25rem;
+    color: #393939;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    /* float: left; */
+}
+
+.footer__link {
+    /* display: inline-block; */
+    display: flex;
+    color: #707070;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer__link:hover {
+    color: #069C54;
+}
+
+.footer__title{
+    margin-right: 170px
+}
